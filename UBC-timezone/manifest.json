@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "UBC Timezone",
+  "version": "1.0",
+  "author" : "TBold",
+  "description": "Adds timezone support for UBC student centre",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://courses.students.ubc.ca/cs/*"],
+      "js": ["ubc-timezone.js"]
+    }
+  ]
+
+}
