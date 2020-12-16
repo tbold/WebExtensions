@@ -4,7 +4,7 @@
   "name": "UBC Timezone",
   "version": "1.0",
   "author" : "TBold",
-  "description": "Adds timezone support for UBC student centre",
+  "description": "Adds timezone support for UBC course schedules",
   "icons": {
     "64": "icons/icon.png"
   },
